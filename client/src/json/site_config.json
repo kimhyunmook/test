@@ -1,0 +1,57 @@
+{
+    "domain" :"localhost:3005",
+    "header" : [
+        {
+            "name":"home",
+            "href":"/"
+        },
+        {
+            "name":"board",
+            "href":"/board/board/1"
+        },
+        {
+            "name":"gallery",
+            "href":"/board/gallery/1"
+        },
+        {
+            "name":"xlsx",
+            "href":"/xlsx"
+        }
+    ],
+    "board": {
+        "target":[
+            {
+                "name":"board",
+                "type": {
+                    "division":"board",
+                    "division_type":"normal"
+                }
+            },
+            {
+                "name":"gallery",
+                "type" :{
+                    "division":"board",
+                    "division_type":"gallery"
+                }
+            }
+        ],
+        "tag":[
+            {
+                "name":"No.",
+                "class":"no"
+            },
+            {
+                "name":"제목",
+                "class":"subject"
+            },
+            {
+                "name":"작성자",
+                "class":"userName"
+            },
+            {
+                "name":"작성일자",
+                "class":"time"
+            }
+        ]
+    }
+}
